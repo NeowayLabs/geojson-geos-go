@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/NeowayLabs/geojson-go/geojson"
-	"github.com/paulsmith/gogeos/geos"
+	"github.com/NeowayLabs/gogeos/geos"
 )
 
 var inputGeojsonFiles2 = [...]string{

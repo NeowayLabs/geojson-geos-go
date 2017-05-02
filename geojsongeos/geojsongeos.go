@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	"github.com/NeowayLabs/geojson-go/geojson"
-	"github.com/paulsmith/gogeos/geos"
+	"github.com/NeowayLabs/gogeos/geos"
 )
 
 func parseCoord(input []float64) geos.Coord {
