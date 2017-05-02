@@ -19,8 +19,8 @@ package geojsongeos
 import (
 	"fmt"
 
+	"github.com/NeowayLabs/geojson-go/geojson"
 	"github.com/paulsmith/gogeos/geos"
-	"github.com/venicegeo/geojson-go/geojson"
 )
 
 func parseCoord(input []float64) geos.Coord {

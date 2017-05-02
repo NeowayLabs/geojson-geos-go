@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/NeowayLabs/geojson-go/geojson"
 	"github.com/paulsmith/gogeos/geos"
-	"github.com/venicegeo/geojson-go/geojson"
 )
 
 var inputGeojsonFiles2 = [...]string{
